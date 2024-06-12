@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Form</title>
+</head>
+<body>
+	<form>
+		<table>
+<!-- label sama input kadang berpasangan -->
+<!-- username -->
+			<tr>
+				<td>
+					<label for="username">Username:</label>
+				</td>
+				<td>
+					<input type="text" id="username">
+				</td>
+			</tr>
+<!-- password -->
+			<tr>
+				<td>
+					<label for="password">Password:</label>
+				</td>
+				<td>
+					<input type="password" id="password">
+				</td>
+			</tr>
+<!-- jenis kelamin -->
+			<tr>
+				<td colspan="2" align="center">
+					<input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+					<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+				</td>
+			</tr>
+<!-- pilihan hobi -->
+			<tr>
+				<td colspan="2" align="center">
+					<input type="checkbox" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+					<input type="checkbox" id="menyelam"><label for="menyelam">Menyelam</label>
+					<input type="checkbox" id="olahraga"><label for="olahraga">Olahraga</label>
+				</td>
+			</tr>
+<!-- opsi daerah -->
+			<tr>
+				<td>
+					<label for="opsi">Combo Box:</label>
+				</td>
+				<td>		
+					<select id="opsi">
+						<option>Bandung</option>
+						<option>Jakarta</option>
+						<option>Ciamis</option>
+					</select>
+				</td>
+			</tr>
+<!-- text box -->
+			<tr>
+				<td>
+					<label for="textarea">Text Area:</label>
+				</td>
+				<td>
+					<textarea id="textarea"></textarea>
+				</td>
+			</tr>
+<!-- tombol -->
+			<tr>
+				<td colspan="2" align="center">
+					<button type="submit">kirim!</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

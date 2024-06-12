@@ -1,0 +1,9 @@
+h1 {
+	color: blue;
+	font-family: montserrat semibold;
+}
+p {
+	color: darkblue;
+	font-family: montserrat medium;
+	text-align: justify;
+}

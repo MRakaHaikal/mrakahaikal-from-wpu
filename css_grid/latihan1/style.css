@@ -1,0 +1,27 @@
+
+.container {
+    width: 600px;
+}
+
+.satu {
+    background-color: blueviolet;
+    width: 600px;
+    height: 100px;
+}
+
+.dua {
+    background-color: blue;
+    
+}
+
+.tiga {
+    background-color: red;
+}
+
+.empat {
+    background-color: orange;
+}
+
+.lima {
+    background-color: brown;
+}

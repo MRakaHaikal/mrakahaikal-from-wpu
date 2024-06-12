@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font: 16px/28px garamond, sans-serif;
+	color: 0101010;
+	background-image: url(bg1.webp);
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: royalblue;
+	padding: 5px;
+}
+
+.header a:hover {
+	background-color: royalblue;
+	color: floralwhite;
+}
+
+.hero {
+	height: 250px;
+	background-image: url(hero.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.main h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.main .penulis {
+	font-size: 12px;
+}
+
+.main p {
+	font-size: 14;
+	margin-bottom: 20px;
+}
+
+.sidebar {
+	padding: 20px;
+	width: 300px;
+	float: right;
+}
+
+.sidebar h3 {
+	font-weight: bold;
+}
+
+.sidebar p {
+	font: 14px/18px Garamond;
+}
+
+.sidebar img {
+	float: left;
+	padding-right: 5px;
+	width: 70px;
+	height: 70px;
+}
+
+
+.footer {
+	background-color: #010101;
+}
+
+.footer .copy {
+	color: #f5f5f5;
+	text-align: center;
+}
+
+
+/*Clear Fix (Biar Float Tetep Masuk Container*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
